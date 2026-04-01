@@ -1,31 +1,31 @@
 {
-  "name": "newman-reporter-slackmsg",
+  "name": "newman-reporter-discord",
   "version": "1.3.2",
-  "description": "newman reporter to slack",
+  "description": "newman reporter to discord",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index/js",
     "test": "jest",
     "prepack": "npm run test",
-    "pack": "npm pack && npm install -g newman-reporter-slack-1.0.0.tgz"
+    "pack": "npm pack && npm install -g newman-reporter-discord-1.0.0.tgz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackcoded/newman-reporter-slackmsg/"
+    "url": "https://github.com/gabrielbergoc/newman-reporter-discord/"
   },
   "keywords": [
     "newman",
     "postman",
-    "slack",
+    "discord",
     "newman reporter",
     "custom newman reporter"
   ],
-  "author": "Jack Chaw",
+  "author": "Gabriel Bergoc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jackcoded/newman-reporter-slackmsg/issues"
+    "url": "https://github.com/gabrielbergoc/newman-reporter-discord/issues"
   },
-  "homepage": "https://github.com/jackcoded/newman-reporter-slackmsg#readme",
+  "homepage": "https://github.com/gabrielbergoc/newman-reporter-discord#readme",
   "dependencies": {
     "@types/node": "^14.0.13",
     "axios": "^0.21.1",
